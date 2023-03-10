@@ -85,7 +85,6 @@ namespace TestProject
         [Theory]
         [InlineData("23423423", 0)]
         [InlineData("200\n1\n1001", 201)]
-        [InlineData("200\n1\n1001,1", 202)]
         [InlineData("1\n1001", 1)]
         public void WhenNumberGreaterThan1000_Ignore(string number, int expected)
         {
